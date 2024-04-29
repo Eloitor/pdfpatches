@@ -1,0 +1,12 @@
+diff --git a/cleaned.pdf b/cleaned.pdf
+--- a/cleaned.pdf
++++ b/cleaned.pdf
+@@ -94046,7 +94046,7 @@ q 10 0 0 10 0 0 cm BT
+ 8.15029 0 Td
+ (,)Tj
+ 5.87964 0 Td
+-(and)Tj
++(an)Tj
+ 19.0697 0 Td
+ (order)Tj
+ 25.6542 0 Td
