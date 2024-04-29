@@ -13,8 +13,14 @@ if [ "$cksum" != "$checksum" ]; then
     echo "$cksum"
     exit 1
 fi
-mutool clean -dg original.pdf cleaned.pdf
+# mutool clean -dg original.pdf cleaned.pdf
+qpdf --qdf --stream-data=uncompress original.pdf cleaned.pdf
+
 patch -u  cleaned.pdf ../patches/*.patch
-qpdf --stream-data=compress cleaned.pdf "${author} - ${title}.pdf"
+pdftocairo -pdf cleaned.pdf "${author} - ${title}".pdf
+
+# qpdf --stream-data=compress "${author} - ${title}.pdf" "${author} - ${title}.pdf"
+# pdfcpu optimize "${author} - ${title}.pdf"
+
 
 
