@@ -1,0 +1,3 @@
+patch -u  cleaned.pdf ../patches/*.patch
+pdftocairo -pdf cleaned.pdf "${author} - ${title}".pdf
+

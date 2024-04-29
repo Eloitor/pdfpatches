@@ -1,0 +1,2 @@
+mutool clean -dg original.pdf cleaned.pdf
+# qpdf --qdf --stream-data=uncompress original.pdf cleaned.pdf

@@ -1,0 +1,8 @@
+wget $url --output-document=original.pdf
+cksum=$(sha256sum original.pdf | cut -d ' ' -f 1)
+if [ "$cksum" != "$checksum" ]; then
+    echo "Error: Checksum mismatch"
+    echo "$cksum"
+    exit 1
+fi
+

@@ -1,0 +1,3 @@
+# qpdf --stream-data=compress "${author} - ${title}.pdf" "${author} - ${title}.pdf"
+# pdfcpu optimize "${author} - ${title}.pdf"
+
