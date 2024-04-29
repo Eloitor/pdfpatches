@@ -4,5 +4,24 @@ mkdir -p masterdir/sources
 mkdir -p masterdir/builddir
 mkdir -p masterdir/destdir
 
+check_utils() {
+    local broken
+
+    for f in ${REQ_UTILS}; do
+        if ! command -v ${f} >/dev/null 2>&1; then
+            echo "${f} is missing in your system, can't continue!" 1>&2
+            broken=1
+        fi
+    done
+    [ "$broken" ] && exit 1
+    [ -z "$1" ] && return 0
+}
+
+# sane umask
+umask 022
+
+readonly REQ_UTILS="curl sha256sum mutool patch pdftocairo"
+check_utils
+
 
 

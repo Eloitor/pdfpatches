@@ -1,6 +1,6 @@
-#! /usr/bin/sh
 title="Rational points on modular elliptic curves"
 author="Henri Darmon"
+revision=1
 url="https://www.math.mcgill.ca/darmon/pub/Articles/Research/36.NSF-CBMS/chapter.pdf"
 checksum="04f00c11cbb6767753a7f1509273dc81e8dc7950c88873a5d930d90e93d7b873"
 
@@ -13,8 +13,8 @@ if [ "$cksum" != "$checksum" ]; then
     echo "$cksum"
     exit 1
 fi
-# mutool clean -dg original.pdf cleaned.pdf
-qpdf --qdf --stream-data=uncompress original.pdf cleaned.pdf
+mutool clean -dg original.pdf cleaned.pdf
+# qpdf --qdf --stream-data=uncompress original.pdf cleaned.pdf
 
 patch -u  cleaned.pdf ../patches/*.patch
 pdftocairo -pdf cleaned.pdf "${author} - ${title}".pdf
