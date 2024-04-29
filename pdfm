@@ -1,0 +1,8 @@
+#! /usr/bin/sh
+
+mkdir -p masterdir/sources
+mkdir -p masterdir/builddir
+mkdir -p masterdir/destdir
+
+
+
