@@ -1,4 +1,8 @@
-set -x 
-patch -u  builddir/cleaned.pdf ../"${TARGET_DOC}"/patches/*.patch
-pdftocairo -pdf builddir/cleaned.pdf builddir/final.pdf
+cp builddir/cleaned.pdf builddir/patched.pdf
+
+for patch_file in ../"${TARGET_DOC}"/patches/*.patch; do
+    patch -u builddir/patched.pdf "$patch_file"
+done
+
+pdftocairo -pdf builddir/patched.pdf builddir/final.pdf
 
