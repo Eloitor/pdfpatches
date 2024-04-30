@@ -1,3 +1,4 @@
-patch -u  cleaned.pdf ../patches/*.patch
-pdftocairo -pdf cleaned.pdf "${author} - ${title}".pdf
+set -x 
+patch -u  builddir/cleaned.pdf ../"${TARGET_DOC}"/patches/*.patch
+pdftocairo -pdf builddir/cleaned.pdf builddir/final.pdf
 

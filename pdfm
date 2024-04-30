@@ -1,8 +1,6 @@
 #! /usr/bin/sh
 
-mkdir -p masterdir/sources
-mkdir -p masterdir/builddir
-mkdir -p masterdir/destdir
+mkdir -p masterdir/sources masterdir/builddir masterdir/destdir
 
 check_utils() {
     broken=0
@@ -12,12 +10,9 @@ check_utils() {
             broken=1
         fi
     done
-    [ "$broken" ] && exit 1
+    [ "$broken" -eq 1 ] && exit 1
     return 0
 }
-
-# sane umask
-umask 022
 
 readonly REQ_UTILS="curl sha256sum mutool patch pdftocairo"
 check_utils
@@ -26,5 +21,15 @@ if [ "$2" ]; then
     TARGET_DOC="$2"
 fi
 
+. "$TARGET_DOC/template"
 
+cd masterdir
+
+. ../common/do_fetch
+. ../common/do_clean
+. ../common/do_patch
+. ../common/do_optimize
+
+# Move final PDF to destination directory
+mv "builddir/final.pdf" "destdir/${author} - ${title}.pdf"
 
