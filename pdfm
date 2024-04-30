@@ -25,7 +25,13 @@ fi
 
 cd masterdir
 
-. ../common/do_fetch
+if [ ! -f "sources/original.pdf" ]; then
+    . ../common/do_fetch
+fi
+
+if [ "$1" = "fetch" ]; then
+    exit 0
+fi
 . ../common/do_clean
 . ../common/do_patch
 . ../common/do_optimize
