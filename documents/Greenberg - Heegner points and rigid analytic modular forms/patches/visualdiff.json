@@ -1,0 +1,41 @@
+{
+  "dpi": 150,
+  "patches": {
+    "eigensymbolsymbol.patch": {
+      "boxes": [
+        {
+          "page": 11,
+          "x0": 211,
+          "y0": 224,
+          "x1": 330,
+          "y1": 317,
+          "label": "eigensymbol correction"
+        }
+      ]
+    },
+    "elliptic_curve_typo.patch": {
+      "boxes": [
+        {
+          "page": 35,
+          "x0": 387,
+          "y0": 51,
+          "x1": 517,
+          "y1": 143,
+          "label": "elliptic curve typo"
+        }
+      ]
+    },
+    "factorization_conductor.patch": {
+      "boxes": [
+        {
+          "page": 46,
+          "x0": 200,
+          "y0": 53,
+          "x1": 291,
+          "y1": 142,
+          "label": "factorization correction"
+        }
+      ]
+    }
+  }
+}

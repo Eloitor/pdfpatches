@@ -1,0 +1,29 @@
+{
+  "dpi": 150,
+  "patches": {
+    "and_order.patch": {
+      "boxes": [
+        {
+          "page": 62,
+          "x0": 403,
+          "y0": 256,
+          "x1": 488,
+          "y1": 343,
+          "label": "and to an correction"
+        }
+      ]
+    },
+    "patch.py": {
+      "boxes": [
+        {
+          "page": 62,
+          "x0": 403,
+          "y0": 256,
+          "x1": 488,
+          "y1": 343,
+          "label": "pikepdf patch check"
+        }
+      ]
+    }
+  }
+}
