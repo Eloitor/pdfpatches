@@ -16,9 +16,19 @@ try {
 
 const fixture = ".work/sources/greenberg.pdf";
 
+function browserAvailable() {
+  if (playwright === null) return false;
+  const { chromium } = playwright;
+  try {
+    return existsSync(chromium.executablePath());
+  } catch {
+    return false;
+  }
+}
+
 test(
   "MV3 extension E2E: badge, popup and local PDF render",
-  { skip: playwright === null || !existsSync(fixture) },
+  { skip: !browserAvailable() || !existsSync(fixture) },
   async () => {
     const extensionSource = join(process.cwd(), "extension");
     const extensionDirectory = await mkdtemp(join(tmpdir(), "pdfpatches-extension-"));
