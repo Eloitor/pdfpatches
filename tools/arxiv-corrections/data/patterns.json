@@ -1,0 +1,39 @@
+{
+  "positive": [
+    {"re": "\\bcorrigendum\\b", "w": 5, "field": "both"},
+    {"re": "\\berratum\\b", "w": 5, "field": "both"},
+    {"re": "\\bcorrection to\\b", "w": 4, "field": "both"},
+    {"re": "\\bcorrect(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)", "w": 4, "field": "both"},
+    {"re": "\\b(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)", "w": 3, "field": "both"},
+    {"re": "\\bwe (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)", "w": 4, "field": "abstract"},
+    {"re": "\\bcounterexample to\\b", "w": 3, "field": "both"},
+    {"re": "\\bthe proof of [^.]{0,60} (?:is|was) (?:incorrect|wrong|flawed|erroneous|incomplete|invalid)", "w": 5, "field": "abstract"},
+    {"re": "\\bthis (?:note|paper|article) (?:corrects|points out|addresses|fixes)", "w": 5, "field": "abstract"},
+    {"re": "\\b(?:a|the) corrected version of\\b", "w": 3, "field": "both"},
+    {"re": "\\b(?:correction|corrigendum|erratum) (?:to|of|for)\\b", "w": 5, "field": "both"},
+    {"re": "\\bnote on\\b", "w": 1, "field": "title"},
+    {"re": "\\b(?:extends|corrects|generalizes|repairs) a (?:result|theorem|proof) of\\b", "w": 2, "field": "abstract"},
+    {"re": "\\bwe (?:point|draw attention) (?:out )?an? (?:error|mistake|flaw)\\b", "w": 4, "field": "abstract"},
+    {"re": "\\bthe (?:proof|argument) (?:presented|given) in [^.]{0,60} (?:is|was) (?:incomplete|incorrect|invalid)", "w": 4, "field": "abstract"},
+    {"re": "\\bdoes not (?:hold|follow|work)\\b", "w": 2, "field": "abstract"},
+    {"re": "\\b(?:paper|article|note) contains (?:an?|several) (?:error|mistake|gap)s?\\b", "w": 4, "field": "abstract"}
+  ],
+  "negative": [
+    {"re": "\\bcorrection (?:factor|term|signal|algorithm|function|code|coefficient|procedure|method|scheme|technique)\\b", "w": 3, "field": "both"},
+    {"re": "\\berror-?correcting\\b", "w": 3, "field": "both"},
+    {"re": "\\bcorrective\\b", "w": 2, "field": "both"},
+    {"re": "\\bproof-?reading\\b", "w": 2, "field": "both"},
+    {"re": "\\bcorrectional\\b", "w": 2, "field": "both"},
+    {"re": "\\bkinematic corrections?\\b", "w": 2, "field": "both"},
+    {"re": "\\bcorrection (?:factor|term|signal|algorithm|function|code|coefficient|procedure|method|scheme|technique|strategy|mechanism|operator|module|model|layer|matrix|vector|map|estimator|rule|system)\b", "w": 3, "field": "both"},
+    {"re": "\\bpolynomial corrections?\\b", "w": 2, "field": "both"},
+    {"re": "\\b(?:noise|random-?matrix|residual|sample|split-?sample|coarse|boundary|bias|atmospheric|kinematic|tidal|distortion|phase|geometric|quantum|relativistic|perturbative) corrections?\\b", "w": 2, "field": "both"},
+    {"re": "\\berror-?correcting\\b", "w": 3, "field": "both"},
+    {"re": "\\bcorrective\\b", "w": 2, "field": "both"},
+    {"re": "\\bproof-?reading\\b", "w": 2, "field": "both"},
+    {"re": "\\bcorrectional\\b", "w": 2, "field": "both"},
+    {"re": "\\bbias correction\\b", "w": 2, "field": "both"},
+    {"re": "\\bcorrection (?:fluid|penalty|loss|cost|energy|force|torque|speed|velocity|flow|signal|scheme|matrix|of the|for the)\\b", "w": 2, "field": "both"},
+    {"re": "\\bcorrectness\\b", "w": 1, "field": "both"}
+  ]
+}

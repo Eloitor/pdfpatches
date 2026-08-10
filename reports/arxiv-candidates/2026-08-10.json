@@ -1,0 +1,1020 @@
+{
+  "generated": "2026-08-10",
+  "queries": 18,
+  "total_unique": 54,
+  "model_used": true,
+  "candidates": [
+    {
+      "arxiv_id": "2606.05223v1",
+      "title": "Corrigendum to \"Isomorphism classes of Drinfeld modules over finite fields\"",
+      "abstract": "In this note we provide corrections to Theorem 5.4 of the paper ``Isomorphism classes of Drinfeld modules over finite fields'', arXiv:2209.15033. The main theorems of this paper, Theorem A and B in its introduction, are valid as stated; in the proof of Theorem B the argument needs to be modified by replacing the erroneous Theorem 5.4 by the theorem of this note.",
+      "published": "2026-06-01T11:06:04Z",
+      "authors": [
+        "Valentijn Karemaker",
+        "Jeffrey Katen",
+        "Mihran Papikian"
+      ],
+      "url": "https://arxiv.org/abs/2606.05223v1",
+      "rule_score": 10.0,
+      "model_prob": 0.7067740981638719,
+      "final_score": 0.8213873185286094,
+      "matched": [
+        "",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2209.05950v1",
+      "title": "Corrigendum to: Zero divisor gragh of a lattice with respect to an ideal",
+      "abstract": "In this paper, we point out several errors in [M.Afkhami, K.Khashyarmanesh and K.Nafar, Zero divisor graph of a lattice with respect to an ideal, Beitr Algebra Geom (2015), 217-225.]. In the previous article, Afkhami claimed that the intersection of all prime ideals belonging to an ideal I of a distributive lattice L equals to I. In this corrigendum, a counterexample for this sentence is constructed. Afkhami demonstrate a counterexample to a certain theorem which satisfies the necessary and the sufficient condition of the theorem. On the other hand, we reform many proofs in Afkhami's article.",
+      "published": "2022-09-10T10:13:01Z",
+      "authors": [
+        "Ahmed Gaber",
+        "Mona Tarek"
+      ],
+      "url": "https://arxiv.org/abs/2209.05950v1",
+      "rule_score": 13.0,
+      "model_prob": 0.6951078338730101,
+      "final_score": 0.8164642274211112,
+      "matched": [
+        "",
+        " to",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2607.22645v1",
+      "title": "Corrigendum to \"Nonsymplectic automorphisms of prime order on O'Grady's sixfolds\"",
+      "abstract": "In this short note we correct the lattice theoretic classification in [Rev. Mat. Iberoam. 38 (2022), no. 4, 1199--1218] of the first named author, including some missing cases and explaining how to recover them.",
+      "published": "2026-06-24T14:52:40Z",
+      "authors": [
+        "Annalisa Grossi",
+        "Stevell Muller"
+      ],
+      "url": "https://arxiv.org/abs/2607.22645v1",
+      "rule_score": 10.0,
+      "model_prob": 0.6931311488128242,
+      "final_score": 0.8132015489179807,
+      "matched": [
+        "",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2602.13228v1",
+      "title": "Corrections to: \"The Willmore flow of Hopf-tori in the 3-sphere\"",
+      "abstract": "This erratum addresses a logical mistake in the author's article [Jakob, R. The Willmore flow of Hopf-tori in the $3$-sphere. Journal of Evolution Equations 23, No. 72 (2023)] which resulted in two wrong assertions in parts (II) and (III) of Theorem 1 in the author's cited paper and in an inaccuracy in the formulation of the second part of Proposition 6 in that paper. We will not only point out these mistakes and their corrections, but we will additionally give a concrete counterexample to Statement (III) in Theorem 1 of the author's cited article which will automatically imply the optimality of the corrected version of that statement, as it is formulated in this erratum.",
+      "published": "2026-01-27T14:07:51Z",
+      "authors": [
+        "Ruben Jakob"
+      ],
+      "url": "https://arxiv.org/abs/2602.13228v1",
+      "rule_score": 11.0,
+      "model_prob": 0.6566309307113463,
+      "final_score": 0.7923505033404493,
+      "matched": [
+        "",
+        " to",
+        "(?:a|the) corrected version of"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2606.03996v1",
+      "title": "Corrigendum to \"Ramification of multiple eigenvalues for the Dirichlet-Laplacian in perforated domains\" published in Journal of Functional Analysis 283 (2022) 109718",
+      "abstract": "We fix the proof of Theorem 1.17 in the quoted reference, which does not in general gives the correct coefficients in the asymptotic behavior of eigenvalues for the Dirichlet Laplacian when a small hole is removed from the domain.",
+      "published": "2026-05-07T14:21:48Z",
+      "authors": [
+        "Laura Abatangelo",
+        "Corentin Léna",
+        "Paolo Musolino"
+      ],
+      "url": "https://arxiv.org/abs/2606.03996v1",
+      "rule_score": 14.0,
+      "model_prob": 0.6503708215517401,
+      "final_score": 0.7898580724532838,
+      "matched": [
+        "",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2607.10710v1",
+      "title": "Corrigendum to \"Transitive permutation groups with trivial four point stabilizers\"",
+      "abstract": "This article revisits earlier work by the last author together with Kay Magaard. We correct mistakes in results about the Sylow 2- and 3-structure of groups that act with fixity 3 and one result about possible components, we improve some results and we add details.",
+      "published": "2026-07-12T11:04:54Z",
+      "authors": [
+        "Paula Hähndel",
+        "Christoph Möller",
+        "Rebecca Waldecker"
+      ],
+      "url": "https://arxiv.org/abs/2607.10710v1",
+      "rule_score": 18.0,
+      "model_prob": 0.635777888836033,
+      "final_score": 0.7814173754712253,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2601.21201v1",
+      "title": "Conformal Geodesics Cannot Spiral -- Erratum",
+      "abstract": "Wojciech Kamiński has provided a non real-analytic counterexample to our claim in [1] that conformal geodesics cannot spiral. This erratum illustrates how the proof of Lemma 4.6 [1] (on which our claim was based) fails.",
+      "published": "2026-01-29T03:01:40Z",
+      "authors": [
+        "Peter Cameron",
+        "Maciej Dunajski",
+        "Paul Tod"
+      ],
+      "url": "https://arxiv.org/abs/2601.21201v1",
+      "rule_score": 8.0,
+      "model_prob": 0.643385206005355,
+      "final_score": 0.7788366396183763,
+      "matched": [
+        "",
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "1910.13836v3",
+      "title": "Erratum to \"The integer cohomology algebra of toric arrangements\"",
+      "abstract": "We point out two errors in the paper ``The integer cohomology algebra of toric arrangements'', Adv. Math., Vol. 313, pp. 746-802, 2017. The main error concerns Theorem 4.2.17. In that theorem's proof, Diagram (8) does not commute in general but only under some restrictive hypotheses on the arrangement $\\mathcal{A}$. This invalidates the description for the ring structure of $H^*(M(\\mathcal{A});\\mathbb{Z})$ given in Theorems A and B. We refer to alternative descriptions of the cohomology ring $H^*(M(\\mathcal{A});\\mathbb{Z})$. The second error concerns Theorem 7.2.1. The claim does hold, but the proof is incorrect. We refer to a counterexample for the argument given in the proof and we provide references for a correct proof.",
+      "published": "2019-10-30T13:21:57Z",
+      "authors": [
+        "Filippo Callegaro",
+        "Emanuele Delucchi"
+      ],
+      "url": "https://arxiv.org/abs/1910.13836v3",
+      "rule_score": 14.0,
+      "model_prob": 0.6117037610759993,
+      "final_score": 0.7666578361678393,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2004.13311v1",
+      "title": "Corrigendum to the paper \"The optimal range of the Calderon operator and its applications.\" [J. Funct. Anal. 277 (2019), no. 10, 3513--3559, arXiv:1908.09548]",
+      "abstract": "We fix a gap in the proof of a result in our earlier paper arXiv:1908.09548",
+      "published": "2020-04-28T05:38:11Z",
+      "authors": [
+        "F. Sukochev",
+        "K. Tulenov",
+        "D. Zanin"
+      ],
+      "url": "https://arxiv.org/abs/2004.13311v1",
+      "rule_score": 17.0,
+      "model_prob": 0.6103144499226182,
+      "final_score": 0.7661072991623489,
+      "matched": [
+        "",
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2509.01108v1",
+      "title": "Multiobjective Programming and Weighting Scalar Problem",
+      "abstract": "In this work is discussed the paper by Osuna-Gomez, Beato-Moreno and Rufian-Lizana, Generalized convexity in multiobjective programming: J. Math. Anal. Appl., v. 233 (1999) pp. 205--220. We point out an error in the proofs of main Theorems 2.4 and 3.6 in this reference. Then we derive correct proofs, which are based on a different approach, because the scheme of the proofs of the authors is not applicable. As a result of the discussion two additional theorems are obtained such that the scheme of the proofs of Theorems 2.4 and 3.6 in the mentioned reference works for them.",
+      "published": "2025-09-01T04:01:05Z",
+      "authors": [
+        "Vsevolod I. Ivanov"
+      ],
+      "url": "https://arxiv.org/abs/2509.01108v1",
+      "rule_score": 11.0,
+      "model_prob": 0.6127848166491721,
+      "final_score": 0.7660428349031447,
+      "matched": [
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)",
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)",
+        " (?:point|draw attention) (?:out )?an? (?:error|mistake|flaw)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2310.07077v4",
+      "title": "A Note on a Result of Makowski",
+      "abstract": "In this note, we fix a gap in a proof of the first author that 28 is the only even perfect number which is the sum of two perfect cubes. We also discuss the situation for higher powers.",
+      "published": "2023-10-10T23:41:18Z",
+      "authors": [
+        "Luis H. Gallardo",
+        "Joshua Zelinsky"
+      ],
+      "url": "https://arxiv.org/abs/2310.07077v4",
+      "rule_score": 5.0,
+      "model_prob": 0.6572686533050632,
+      "final_score": 0.7640179199745405,
+      "matched": [
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        " on"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2606.19415v1",
+      "title": "Corrigendum: order extreme points and solid convex hulls",
+      "abstract": "We correct some errors found in [T. Oikhberg and M.A. Tursi, Order extreme points and solid convex hulls, in ``The Mathematical Legacy of Victor Lomonosov'' (ed. R. Aron et.al.), de Gryuter, 2020, 297--315.]",
+      "published": "2026-06-17T16:51:58Z",
+      "authors": [
+        "Anastasiia Ianina",
+        "Timur Oikhberg",
+        "Mary Angelica Tursi"
+      ],
+      "url": "https://arxiv.org/abs/2606.19415v1",
+      "rule_score": 5.0,
+      "model_prob": 0.6550181728233408,
+      "final_score": 0.7626676316855071,
+      "matched": [
+        ""
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2602.18654v1",
+      "title": "Corrigendum and addendum to \"Fixed-point-free elements of iterated monodromy groups\" [Trans. of the American Mathematical Society Vol. 367, No. 3 (2015), 2023-2049]",
+      "abstract": "In this note we document a gap in an argument in the above paper, and point to new work in the literature giving a complete proof of the main result.",
+      "published": "2026-02-20T23:10:01Z",
+      "authors": [
+        "Jorge Fariña-Asategui",
+        "Rafe Jones",
+        "Santiago Radi"
+      ],
+      "url": "https://arxiv.org/abs/2602.18654v1",
+      "rule_score": 5.0,
+      "model_prob": 0.6390879078024365,
+      "final_score": 0.7531094726729646,
+      "matched": [
+        ""
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2607.07150v1",
+      "title": "On 4-dimensional convex projective domains invariant by a lattice of $\\mathrm{SL}_2 (\\mathbb{R})$",
+      "abstract": "This paper is a sequel to the erratum by the authors to a paper by Crampon and Marquis (see arXiv:1202.5442). The main result of the Erratum was relating several notions of geometrical finiteness in round convex projective geometry and we prove here that our series of implications was sharp, by providing counterexamples to the implications that were not established. Our counterexamples are 4-dimensional convex domains $Ω$ acted on by $ρ(Γ)$ where $Γ$ is a lattice of $\\mathrm{SL}_2 (\\mathbb R)$ and $ρ$ is the irreducible representation of $\\mathrm{SL}_2 (\\mathbb R)$ of dimension $5$. We give a description of all $ρ(Γ)$-invariant convex domains, and in particular we construct one which is \"close enough\" to the convex hull $\\mathcal C$ of the limit set of $ρ(Γ)$ so that the Hilbert volume $\\mathrm{Vol}_{Ω/Γ}(\\mathcal C/Γ)$ of the convex core is infinite. We include an appendix with a smoothing procedure in the spirit of Cooper, Long and Tillman (arXiv:1511.06206) and Danciger, Guéritaud and Kassel (arXiv:1704.08711).",
+      "published": "2026-07-08T08:40:15Z",
+      "authors": [
+        "Ludovic Marquis",
+        "Pierre-Louis Blayac"
+      ],
+      "url": "https://arxiv.org/abs/2607.07150v1",
+      "rule_score": 5.0,
+      "model_prob": 0.6338336073093646,
+      "final_score": 0.7499568923771214,
+      "matched": [
+        ""
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2605.20951v1",
+      "title": "Corrigendum and Addendum to \"Fraïssé's Conjecture and big Ramsey degrees of structures admitting finite monomorphic decomposition''",
+      "abstract": "In Section 6 of the paper ``Fraïssé's Conjecture and big Ramsey degrees of structures admitting finite monomorphic decomposition'', we applied the methods developed in earlier sections to show that a certain reduct of the generic permutation has finite big Ramsey degrees. Unfortunately, this reduct was incorrectly identified as the generic partial order. We are grateful to Jan Hubička for bringing this error to our attention. In this note we correct the statements that rely on this misidentification and demonstrate that the reduct in question is in fact the generic 2-dimensional partial order. We emphasize that the arguments presented in Section 6 remain valid, with the sole exception of the Claim in the proof of Theorem 6.4, whose role was to (incorrectly) identify the reduct of the generic permutation as the generic partial order. This correction has an unexpected positive consequence. Rather than reproving a well-known result whose existing proof is already notably elegant, this note demonstrates that our general framework can be used to establish that a previously unexplored class of generic relational structures has finite big Ramsey degrees. This observation opens a potentially new direction for further research in the thriving area of big Ramsey combinatorics. In the addendum, we combine a recent result by Oudrar and Pouzet with our analysis of finite big Ramsey degrees for structures admitting finite monomorphic decomposition to characterize the existence of finite Big Ramsey degrees for all countable relational structures whose language has a linear order and age has polynomial growth.",
+      "published": "2026-05-20T09:38:31Z",
+      "authors": [
+        "Dragan Mašulović"
+      ],
+      "url": "https://arxiv.org/abs/2605.20951v1",
+      "rule_score": 9.0,
+      "model_prob": 0.5818269770116531,
+      "final_score": 0.7447014091547546,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2605.06674v1",
+      "title": "Corrigendum to `Evaluation of motivic functions, non-nullity, and integrability in fibers', Advances in Mathematics, Vol. 409, Part A, Paper No. 108635, 29 pages, doi:10.1016/j.aim.2022.108635 (2022)",
+      "abstract": "We correct the statements and proofs of the (auxiliary) Propositions 4.1 and 4.2 of our paper `Evaluation of motivic functions, non-nullity, and integrability in fibers' in Advances in Mathematics, Vol. 409, Part A, Paper No. 108635, 29 pages (2022), and we explain how the proofs of the main results can be adapted to work with those corrected propositions.",
+      "published": "2026-04-21T13:41:36Z",
+      "authors": [
+        "Raf Cluckers",
+        "Immanuel Halupczok"
+      ],
+      "url": "https://arxiv.org/abs/2605.06674v1",
+      "rule_score": 14.0,
+      "model_prob": 0.5724975279547617,
+      "final_score": 0.7431340962950967,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2602.20228v1",
+      "title": "Corrigendum to \"Asymptotic homology of graph braid groups\"",
+      "abstract": "We correct an error in the paper referred to in the title. Part of the argument is organized as a general method for establishing when (derived) functors factor through a fixed Serre subcategory, which may be of some more general interest.",
+      "published": "2026-02-23T17:23:40Z",
+      "authors": [
+        "Byung Hee An",
+        "Gabriel C. Drummond-Cole",
+        "Ben Knudsen"
+      ],
+      "url": "https://arxiv.org/abs/2602.20228v1",
+      "rule_score": 17.0,
+      "model_prob": 0.5680776729032817,
+      "final_score": 0.740765232950747,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)",
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2504.01993v1",
+      "title": "Corrigendum to \"Representation stability for diagram algebras\" [J. Algebra 638 (2024) 625-669]",
+      "abstract": "After the publication of [J. Algebra 638 (2024) 625-669], we noticed a serious mistake in the treatment of the partition algebra. In particular, we assumed in the proof of Lemma 4.9 that the trivial P_n-module is indexed by the empty set but it is actually indexed by the partition (n). In this erratum, we fix this mistake and give a complete proof of Theorem C.",
+      "published": "2025-03-31T20:28:01Z",
+      "authors": [
+        "Peter Patzt"
+      ],
+      "url": "https://arxiv.org/abs/2504.01993v1",
+      "rule_score": 19.0,
+      "model_prob": 0.545891732806614,
+      "final_score": 0.7275051011929642,
+      "matched": [
+        "",
+        "",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.07338v1",
+      "title": "An Explicit Five-Variable Counterexample to the Generalized Vanishing Conjecture",
+      "abstract": "We give an explicit counterexample in five variables to the Generalized Vanishing Conjecture. The construction is motivated by the recent counterexample to the Mathieu conjecture for SU(2). In the polynomial ring C[a,b,c,d,t], set P = (t+c)(ad+bt), Q = c, and let Λ = d/dt (d/da d/dd - d/db d/dc). We prove that Λ^m(P^m) = 0 for every m >= 1, whereas for every m >= 2, Λ^m(QP^m) = (-1)^m (m!)^2 (m+1)! t, which is nonzero. Thus the Generalized Vanishing Conjecture fails in dimension 5.",
+      "published": "2026-08-07T15:33:13Z",
+      "authors": [
+        "Alexander Dvorsky"
+      ],
+      "url": "https://arxiv.org/abs/2608.07338v1",
+      "rule_score": 3.0,
+      "model_prob": 0.6589207286793779,
+      "final_score": 0.7223822276850842,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2508.08728v1",
+      "title": "Split Kac-Moody groups over a local field, II. Ordered masures",
+      "abstract": "For a split Kac-Moody group (in J. Tits' definition) over a field endowed with a real valuation, we build an ordered affine hovel on which the group acts. This construction generalizes the one already done by S. Gaussent and the author when the residue field contains the complex field and the one by F. Bruhat and J. Tits when the group is reductive. We prove that this hovel has all the properties of ordered affine hovels (masures affines ordonn{é}es) as defined previously by the author. We use the maximal Kac-Moody group as defined by O. Mathieu and we prove a few new results about it over any field; in particular we prove, in some cases, a simplicity result for this group. At the end an erratum corrects a mistake in the counter-example of 4.12 3 (c).",
+      "published": "2025-08-12T08:15:12Z",
+      "authors": [
+        "Guy Rousseau"
+      ],
+      "url": "https://arxiv.org/abs/2508.08728v1",
+      "rule_score": 9.0,
+      "model_prob": 0.5373327510100256,
+      "final_score": 0.7180048735537781,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2203.14935v2",
+      "title": "On Chevalley's Extension Theorem",
+      "abstract": "Professor Daniel Anderson informed me, recently, that there is an error in the proof of Theorem 56 of Kaplansky's book on Commutative Rings. His (Dan's) reason was \"He (Kaplansky) orders by reverse inclusion but in the last line uses inclusion, so we don't contradict maximality (which is minimality)\". The aim of this short note is to indicate that while Dan Anderson appears to be correct in pointing out an error in the proof of Theorem 56 of the above mentioned book, the statement of the theorem is a correct consequence of a Theorem of Chevalley.",
+      "published": "2022-03-28T17:42:27Z",
+      "authors": [
+        "Muhammad Zafrullah"
+      ],
+      "url": "https://arxiv.org/abs/2203.14935v2",
+      "rule_score": 3.0,
+      "model_prob": 0.6464435732202423,
+      "final_score": 0.7148959344096029,
+      "matched": [
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2001.08130v1",
+      "title": "Amenability of Beurling algebras, corrigendum to a result in \"Generalised notions of amenability, II\"",
+      "abstract": "We fix a gap in the proof of a result in our earlier paper \"Generalised notions of amenability, II\" (J. Funct. Anal. 254 (2008) 1776-1810), and so provide a new proof to a characterization of amenability for Beurling algebras. The result answers a question raised by M. C. White (Bull. London. Math. Soc. 23 (1991) 375-380).",
+      "published": "2020-01-22T16:30:29Z",
+      "authors": [
+        "Fereidoun. Ghahramani",
+        "Richard J. Loy",
+        "Yong Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2001.08130v1",
+      "rule_score": 17.0,
+      "model_prob": 0.5223864389096792,
+      "final_score": 0.7133504925545855,
+      "matched": [
+        "",
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2607.19423v1",
+      "title": "Correction: N-free posets and orthomodularity",
+      "abstract": "We present a corrected version of a theorem from the paper \"N-free posets and orthomodularity\" published in Order 43(1) (2026).",
+      "published": "2026-07-20T10:04:58Z",
+      "authors": [
+        "Gejza Jenča"
+      ],
+      "url": "https://arxiv.org/abs/2607.19423v1",
+      "rule_score": 3.0,
+      "model_prob": 0.6431274441934742,
+      "final_score": 0.712906256993542,
+      "matched": [
+        "(?:a|the) corrected version of"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2604.09636v1",
+      "title": "Corrigendum to \"Optimal time-decay estimates for an Oldroyd-B model with zero viscosity [J. Differential Equations, 306(2022), 456--491]\"",
+      "abstract": "The present note is to make minor correction on the assumption of Theorem 1.2 and its proof in our paper [arXiv:2111.02059, Jinrui Huang, Yinghui Wang, Huanyao Wen and Rizhao Zi, {\\it J. Differential Equations}, 306(2022), 456--491].",
+      "published": "2026-03-20T13:59:05Z",
+      "authors": [
+        "Jinrui Huang",
+        "Yinghui Wang",
+        "Huanyao Wen",
+        "Ruizhao Zi"
+      ],
+      "url": "https://arxiv.org/abs/2604.09636v1",
+      "rule_score": 10.0,
+      "model_prob": 0.5201324546033349,
+      "final_score": 0.7094023323922871,
+      "matched": [
+        "",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2603.06711v1",
+      "title": "Corrigendum & Addendum to \"Categoricity-like Properties in the First Order Realm\"",
+      "abstract": "This note complements our paper \"Categoricity-like properties in the first order realm\" (Journal for the Philosophy of Mathematics, 2024).",
+      "published": "2026-03-05T20:02:16Z",
+      "authors": [
+        "Ali Enayat",
+        "Mateusz Łełyk"
+      ],
+      "url": "https://arxiv.org/abs/2603.06711v1",
+      "rule_score": 5.0,
+      "model_prob": 0.5614707784269193,
+      "final_score": 0.7065391950476542,
+      "matched": [
+        ""
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2508.18893v2",
+      "title": "A note on Cybenko's Universal Approximation Theorem",
+      "abstract": "In this short note, we point out a mistake in G.Cybenko's proof of his version of the universal approximation theorem which has been widely cited. This mistake might not be easily fixable along the idea of his proof and it also leads to an interesting question in measure theory.",
+      "published": "2025-08-26T10:07:38Z",
+      "authors": [
+        "Kun Wang"
+      ],
+      "url": "https://arxiv.org/abs/2508.18893v2",
+      "rule_score": 5.0,
+      "model_prob": 0.5513967286001842,
+      "final_score": 0.7004947651516131,
+      "matched": [
+        " on",
+        " (?:point|draw attention) (?:out )?an? (?:error|mistake|flaw)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2202.07529v1",
+      "title": "Counterexamples to the characterisation of graphs with equal independence and annihilation number",
+      "abstract": "We disprove the characterisation of graphs with equal independence and annihilation number by Larson and Pepper (2011). Series of counterexamples with arbitrary number of vertices, arbitrary number of components, arbitrary large independence number and arbitrary large difference between the critical and the regular independence number are provided. Furthermore, we point out the error in the proof of the theorem. However, we show that the theorem still holds for bipartite graphs and connected claw-free graphs.",
+      "published": "2022-02-15T16:02:04Z",
+      "authors": [
+        "Michaela Hiller"
+      ],
+      "url": "https://arxiv.org/abs/2202.07529v1",
+      "rule_score": 3.0,
+      "model_prob": 0.6208506017262425,
+      "final_score": 0.6995401515132029,
+      "matched": [
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2604.20894v1",
+      "title": "Addendum/Corrigendum to \"On solubility of skew left braces and solutions of the Yang-Baxter equation\"",
+      "abstract": "In our previous work: Adv. Math. 455 (2024), no. 109880, solubility of solutions was introduced as an extension of solubility of skew braces in the classification context of non-degenerate solutions of the Yang-Baxter equation. One of our main results (Theorem C) proved that a skew brace is soluble if, and only if, its associated solution is soluble. A minor step depending on the definition of homomorphism of solutions was overlooked. In this work, proof of Theorem C is repaired by means of a new class of homomorphisms of solutions: i-homomorphisms of solutions. The importance of this new class is twofold: indecomposable solutions are characterised by means of i-simplicity of solutions, and i-kernels of i-homomorphisms generate ideals in structure skew braces of solutions. Hence, solubility of solutions is redefined as an opposite class of indecomposable solutions. The results obtained with this definition improve our previous outcomes: every soluble solution is proved to have a soluble structure skew brace, and consequently, Theorem C still holds. Several results stemming from this new analysis are outlined.",
+      "published": "2026-04-21T08:58:21Z",
+      "authors": [
+        "A. Ballester-Bolinches",
+        "R. Esteban-Romero",
+        "P. Jiménez-Seral",
+        "V. Pérez-Calabuig"
+      ],
+      "url": "https://arxiv.org/abs/2604.20894v1",
+      "rule_score": 10.0,
+      "model_prob": 0.49568121245802516,
+      "final_score": 0.6947315871051012,
+      "matched": [
+        "",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2505.14960v1",
+      "title": "An inequality of Harish-Chandra",
+      "abstract": "In paper I of his masterpiece Harmonic Analysis on Real Reductive Groups, Harish-Chandra included an important inequality that is useful in proving that certain key integrals depending on a parameter converge for large values of the parameter. His proof involved the Tarski-Seidenberg Theorem. The purpose of this note is an elementary proof of the inequality which is an expansion of the idea in my Real Reductive Groups I. This exposition fixes several critical misprints in the original and can be considered to be an erratum for the book.",
+      "published": "2025-05-20T22:40:59Z",
+      "authors": [
+        "Nolan R Wallach"
+      ],
+      "url": "https://arxiv.org/abs/2505.14960v1",
+      "rule_score": 10.0,
+      "model_prob": 0.4954909648158676,
+      "final_score": 0.6946174385198067,
+      "matched": [
+        "",
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.04981v1",
+      "title": "A Counterexample to the Liu--Lou--Zhu $\\mathcal Q_p$--Carleson Embedding Conjecture",
+      "abstract": "In this paper, we disprove a conjecture of Liu, Lou, and Zhu concerning Carleson embeddings of $\\mathcal Q_p$ spaces into tent spaces for $0<p<1$. More precisely, we construct a finite positive $p$-Carleson measure $μ$ on the unit disc $\\mathbb D$ such that the canonical embedding $$ \\operatorname{id}:\\mathcal Q_p \\longrightarrow \\mathcal T_{p,2}^2(μ) $$ is not bounded. The main ingredient is a new family of $\\mathcal Q_p$ test functions that encodes Cantor-type structures on the unit circle $\\mathbb T$ into the analytic behavior of functions in $\\mathcal Q_p$. This construction is inspired by ideas developed in a recent work of the first and third authors on composition operators on $\\mathcal Q_p$ spaces.",
+      "published": "2026-08-05T15:53:52Z",
+      "authors": [
+        "Bingyang Hu",
+        "Jie Xiao",
+        "Xiaojing Zhou"
+      ],
+      "url": "https://arxiv.org/abs/2608.04981v1",
+      "rule_score": 3.0,
+      "model_prob": 0.5974183396525822,
+      "final_score": 0.6854807942690069,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2006.04280v1",
+      "title": "On forward invariance in Lyapunov stability theorem for local stability",
+      "abstract": "Forward invariance of a basin of attraction is often overlooked when using a Lyapunov stability theorem to prove local stability; even if the Lyapunov function decreases monotonically in a neighborhood of an equilibrium, the dynamic may escape from this neighborhood. In this note, we fix this gap by finding a smaller neighborhood that is forward invariant. This helps us to prove local stability more naturally without tracking each solution path. Similarly, we prove a transitivity theorem about basins of attractions without requiring forward invariance. Keywords: Lyapunov function, local stability, forward invariance, evolutionary dynamics.",
+      "published": "2020-06-07T22:08:33Z",
+      "authors": [
+        "Dai Zusai"
+      ],
+      "url": "https://arxiv.org/abs/2006.04280v1",
+      "rule_score": 4.0,
+      "model_prob": 0.550133573199227,
+      "final_score": 0.6823989751106891,
+      "matched": [
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.05662v1",
+      "title": "On the Numerical Terao Conjecture",
+      "abstract": "We prove that the Numerical Terao Conjecture holds for even-degree conic-line arrangements having only ADE singularities. We then show that the conjecture fails in the broader quasi-homogeneous setting once ordinary quadruple points are admitted, by constructing a degree-nine counterexample, each consisting of seven lines and one smooth conic, with the same weak combinatorics \\[ W(\\mathcal{CL}) = (7,1;\\,8A_1+D_4+4X_9). \\] We show that one curve is free with exponents $(4,4)$, whereas the other is nearly free with exponents $(3,6)$. This yields a counterexample to the strongest known formulation of the Numerical Terao Conjecture.",
+      "published": "2026-08-06T06:59:12Z",
+      "authors": [
+        "Piotr Pokora"
+      ],
+      "url": "https://arxiv.org/abs/2608.05662v1",
+      "rule_score": 3.0,
+      "model_prob": 0.5642246256798343,
+      "final_score": 0.6655645658853582,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2303.02634v5",
+      "title": "Some notes on topological rings and their groups of units",
+      "abstract": "If $R$ is a topological ring then $R^{\\ast}$, the group of units of $R$, with the subspace topology is not necessarily a topological group. This leads us to the following natural definition: By an \\emph{absolute topological ring} we mean a topological ring such that its group of units with the subspace topology is a topological group. We prove that every commutative ring with the $I$-adic topology is an absolute topological ring. Next, we prove that if $I$ is an ideal of a ring $R$ then for the $I$-adic topology over $R$ we have $π_{0}(R)=R/(\\bigcap\\limits_{n\\geqslant1}I^{n})=t(R)$ where $π_{0}(R)$ is the space of connected components of $R$ and $t(R)$ is the space of irreducible closed subsets of $R$. We observed that the main result of Koh \\cite{kwangil} as well as its corrected form \\cite[Chap II, \\S12, Theorem 12.1]{Ursul} are not true, and then we corrected this result in the right way. In the Wikipedia pages, it is claimed that ``the identity component of a topological group is always a characteristic subgroup'', we also provide a counterexample to this claim. Finally, we fix a gap in the proof of the fact that every epimorphism of the category of Hausdorff topological spaces has a dense image.",
+      "published": "2023-03-05T10:25:32Z",
+      "authors": [
+        "Abolfazl Tarizadeh"
+      ],
+      "url": "https://arxiv.org/abs/2303.02634v5",
+      "rule_score": 10.0,
+      "model_prob": 0.44295647812971867,
+      "final_score": 0.6630967465081173,
+      "matched": [
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)",
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)",
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "1809.01214v1",
+      "title": "Counting integers with a smooth totient",
+      "abstract": "We fix a gap in our proof of an upper bound for the number of positive integers $n\\le x$ for which the Euler function $\\varphi(n)$ has all prime factors at most $y$. While doing this we obtain a stronger, likely best-possible result.",
+      "published": "2018-09-04T19:27:12Z",
+      "authors": [
+        "W. D. Banks",
+        "J. B. Friedlander",
+        "C. Pomerance",
+        "I. E. Shparlinski"
+      ],
+      "url": "https://arxiv.org/abs/1809.01214v1",
+      "rule_score": 4.0,
+      "model_prob": 0.4966969538167633,
+      "final_score": 0.6503370034812109,
+      "matched": [
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "1910.05043v2",
+      "title": "The large sieve for square moduli in function fields",
+      "abstract": "We prove a lower and an upper bound for the large sieve with square moduli for function fields. These bounds correspond to bounds for the classical large sieve with square moduli established in arXiv:1812.05844 by Baier, Lynch and Zhao and arXiv:math/0512271 by Baier and Zhao. Our lower bound in the function field setting contradicts an upper bound obtained in arXiv:1802.03131 by Baier and Singh. Indeed, we point out an error in arXiv:1802.03131.",
+      "published": "2019-10-11T09:25:57Z",
+      "authors": [
+        "Stephan Baier",
+        "Rajneesh Kumar Singh"
+      ],
+      "url": "https://arxiv.org/abs/1910.05043v2",
+      "rule_score": 4.0,
+      "model_prob": 0.49422466015090205,
+      "final_score": 0.6488536272816942,
+      "matched": [
+        " (?:point|draw attention) (?:out )?an? (?:error|mistake|flaw)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2012.02002v2",
+      "title": "Lipschitz stability for Backward Heat Equation with application to Fluorescence Microscopy",
+      "abstract": "This second version of the manuscript includes, in the appendices, an erratum that points out an error on the published version and offers alternative results for the Lipschitz stability analysis of the backward heat propagation problem and its applications to light sheet fluorescence microscopy. Abstract of the first version: In this work, we study a Lipschitz stability result in the reconstruction of a compactly supported initial temperature for the heat equation in $\\mathbb{R}^n$, from measurements along a positive time interval and over an open set containing its support. We take advantage of the explicit dependency of solutions to the heat equation with respect to the initial condition. By means of Carleman estimates we obtain an analogous result for the case when the observation is made along an exterior region $ω\\times(τ,T)$, such that the unobserved part $\\mathbb{R}^n\\backslashω$ is bounded. In the latter setting, the method of Carleman estimates gives a general conditional logarithmic stability result when initial temperatures belong to a certain admissible set, and without the assumption of compactness of support. Furthermore, we apply these results to deduce a similar result for the heat equation in $\\mathbb{R}$ for measurements available on a curve contained in $\\mathbb{R}\\times [0,\\infty)$, from where a stability estimate for an inverse problem arising in 2D Fluorescence Microscopy is deduced as well. In order to further understand this Lipschitz stability, in particular, the magnitude of its stability constant with respect to the noise level of the measurements, a numerical reconstruction is presented based on the construction of a linear system for the inverse problem in Fluorescence Microscopy. We investigate the stability constant with the condition number of the corresponding matrix.",
+      "published": "2020-12-03T15:30:23Z",
+      "authors": [
+        "Pablo Arratia",
+        "Matias Courdurier",
+        "Evelyn Cueva",
+        "Axel Osses",
+        "Benjamin Palacios"
+      ],
+      "url": "https://arxiv.org/abs/2012.02002v2",
+      "rule_score": 5.0,
+      "model_prob": 0.4646031947871484,
+      "final_score": 0.6484186448637916,
+      "matched": [
+        ""
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.01579v1",
+      "title": "A computer-assisted counterexample to the planar Pompeiu and Schiffer conjectures",
+      "abstract": "The planar Pompeiu problem, originating in 1929, and the associated Schiffer conjecture are long-standing rigidity questions linking rigid-motion integral transforms and Fourier zero sets to overdetermined Neumann eigenvalue problems. We construct a bounded simply connected noncircular domain $Ω\\subset\\mathbb{R}^2$ with real-analytic Jordan boundary and a nonconstant function $u$ such that $(Δ+k^2)u=0$ in $Ω$, $u=1,\\partial_νu=0$ on $\\partialΩ$ for some $k\\in(31.967007261,31.967007293)$. Thus $u$ is a Neumann eigenfunction which is constant on the boundary, and $Ω$ is a counterexample to Schiffer's conjecture. Green's identity also gives $\\widehat{\\mathbf 1_Ω}(kω)=0$ $(ω\\in\\mathbb S^1)$, so $Ω$ fails the Pompeiu property and is also a counterexample to the planar Pompeiu conjecture for bounded simply connected Lipschitz domains. We obtain the domain as $Ω=φ(\\mathbb{D})$, where $φ$ is a ten-fold symmetric conformal map close to an explicitly listed polynomial of degree $301$. On the unit disc, the analytic problem becomes a cubic operator equation on real coefficient spaces, $F(g,p)=g+|p|^2(1+Kg)=0$, where $K$, expressed in a disk-polynomial basis, is an explicit inverse of the Laplacian on the range compatible with zero Dirichlet and Neumann traces, and $p=kφ'$. Positivity of the disk-polynomial linearisation coefficients, sharp bounds for $K$, and monotone control of the infinite tails establish an a posteriori contraction near the listed polynomial in a weighted coefficient algebra, and hence an exact zero of $F$.",
+      "published": "2026-08-03T01:28:36Z",
+      "authors": [
+        "Matthew J. Colbrook",
+        "George Stepaniants"
+      ],
+      "url": "https://arxiv.org/abs/2608.01579v1",
+      "rule_score": 3.0,
+      "model_prob": 0.5325806125016976,
+      "final_score": 0.6465781579784761,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.06272v1",
+      "title": "A counterexample to the inverse generator problem and related questions",
+      "abstract": "We give a negative solution to the inverse generator problem on Hilbert spaces. More precisely, we construct a bounded operator $A$ with dense range on a Hilbert space $H$ that generates a bounded, strongly stable $C_0$-semigroup, while $A^{-1}$ does not generate a $C_0$-semigroup. We also construct an exponentially stable generator $A$ with $0 \\in ρ(A)$ such that the inverse semigroup is unbounded and grows at least double logarithmically. For the latter generator, every Cayley transform satisfies the ordinary Kreiss resolvent condition but is neither strongly Kreiss bounded nor power bounded. Moreover, its powers satisfy a doubly logarithmic lower bound. Consequently, the Crank--Nicolson scheme is unstable in operator norm both for every fixed step size over long times and under mesh refinement at any fixed final time. Our counterexamples are deduced from a common finite-dimensional construction. For $α\\in(0,1)$, we use explicit bases of $\\mathbb{C}^{2n}$ whose partial-sum projections are uniformly bounded and whose unconditionality constants are comparable to $n^α$. The matrices underlying the counterexamples are then obtained as Schauder multipliers with respect to these bases, using a sequence of eigenvalues whose moduli decay doubly exponentially.",
+      "published": "2026-08-06T17:01:43Z",
+      "authors": [
+        "Emiel Lorist",
+        "Martin Meyries",
+        "Mark Veraar"
+      ],
+      "url": "https://arxiv.org/abs/2608.06272v1",
+      "rule_score": 3.0,
+      "model_prob": 0.5295494473222473,
+      "final_score": 0.6447594588708059,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2505.22206v1",
+      "title": "Directional $ρ$-coefficients",
+      "abstract": "In this paper we obtain advances for the concept of directional $ρ$-coefficients, originally defined for the trivariate case in [Nelsen, R.B., Úbeda-Flores, M. (2011). Directional dependence in multivariate distributions. Ann. Inst. Stat. Math 64, 677-685] by extending it to encompass arbitrary dimensions and directions in multivariate space. We provide a generalized definition and establish its fundamental properties. Moreover, we resolve a conjecture from the aforementioned work by proving a more general result applicable to any dimension, correcting a result in [García, J.E., González-López, V.A., Nelsen, R.B. (2013). A new index to measure positive dependence in trivariate distributions. J. Multivariate Anal. 115, 481-495] an erratum in the current literature. Our findings contribute to a deeper understanding of multivariate dependence and association, offering novel tools for detecting directional dependencies in high-dimensional settings. Finally, we introduce nonparametric estimators, based on ranks, for estimating directional $ρ$-coefficients from a sample.",
+      "published": "2025-05-28T10:33:22Z",
+      "authors": [
+        "Enrique de Amo",
+        "David García-Fernández",
+        "Manuel Úbeda-Flores"
+      ],
+      "url": "https://arxiv.org/abs/2505.22206v1",
+      "rule_score": 9.0,
+      "model_prob": 0.41225768575564037,
+      "final_score": 0.6429598344011469,
+      "matched": [
+        "",
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2408.05731v2",
+      "title": "Isbell's subfactor projections in a noetherian form",
+      "abstract": "In this paper, we revisit the 1979 work of Isbell on subfactors of groups and their projections, which he uses to establish a stronger formulation of the butterfly lemma and its consequence, the refinement theorem for subnormal series of subgroups. We point out an error in the second part of Isbell's refinement theorem, but show that the rest of his results can be extended to the general self-dual context of a noetherian form, which includes in its scope all semi-abelian categories as well as all Grandis exact categories. Furthermore, we show that Isbell's formulations of the butterfly lemma and the refinement theorem amount to canonicity of isomorphisms established in these results.",
+      "published": "2024-08-11T09:16:10Z",
+      "authors": [
+        "Kishan Dayaram",
+        "Amartya Goswami",
+        "Zurab Janelidze"
+      ],
+      "url": "https://arxiv.org/abs/2408.05731v2",
+      "rule_score": 4.0,
+      "model_prob": 0.46107896801771786,
+      "final_score": 0.6289662120017836,
+      "matched": [
+        " (?:point|draw attention) (?:out )?an? (?:error|mistake|flaw)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.02675v1",
+      "title": "A 60-Vertex Lower Bound for Cubic Bipartite Counterexamples to the Erdős-Gyárfás Conjecture",
+      "abstract": "A certified exhaustive computation shows that every simple cubic bipartite graph on at most 58 vertices contains a cycle of length 4, 8, or 16. Consequently, any cubic bipartite counterexample to the Erdos-Gyarfas conjecture has at least 60 vertices, improving the established published lower bound for this class from 30 to 60. The proof begins with a Moore-bound observation: below 62 vertices, a cubic bipartite graph avoiding 4- and 8-cycles must contain a 6-cycle. Viewing the graph as the Levi graph of a linear symmetric v3-configuration turns this 6-cycle into a Berge triangle. Up to symmetry, only two rooted extensions are possible. A complete restricted-growth search on at most 29 points exhausts both search trees. The computation is checked by two separately implemented exact procedures using different C16 oracles and by a static witness certificate. Source code, certificates, and reproduction instructions are archived with the paper.",
+      "published": "2026-08-02T17:47:43Z",
+      "authors": [
+        "Julius Tranquilli"
+      ],
+      "url": "https://arxiv.org/abs/2608.02675v1",
+      "rule_score": 3.0,
+      "model_prob": 0.5005256088950586,
+      "final_score": 0.6273451558144927,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2607.13746v1",
+      "title": "Transformation Semigroup Perspective on the Magma Monoid",
+      "abstract": "The monoid of all binary operations was first introduced by H. S. Kim and J. Neggers in 2008. Since then, different aspects and applications of this monoid were studied, while several questions about its semigroup-theoretic properties remain unanswered. We employ a transformation semigroup perspective to fully characterize principal left and right ideals, idempotent and regular elements of this monoid, as well as provide precise combinatorial enumerations of them. This approach gives a general framework for most of the existing results on ideals in the magma monoid. We also answer several open questions posed in the 2023 PhD dissertation of A. Rafieipour. Finally, we correct an error regarding the description of the center of the magma monoid from the 2011 paper of H. F. Fayomi.",
+      "published": "2026-07-15T12:03:37Z",
+      "authors": [
+        "Yakiv Baiduk",
+        "Sergiy Kozerenko"
+      ],
+      "url": "https://arxiv.org/abs/2607.13746v1",
+      "rule_score": 4.0,
+      "model_prob": 0.4471574459968456,
+      "final_score": 0.6206132987892603,
+      "matched": [
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.04451v2",
+      "title": "A Counterexample to Fourier Alignment in Single-Neuron Modular Addition",
+      "abstract": "We give a negative solution to MAIS-O60. We first construct an example in which an initially active ReLU neuron becomes completely inactive in finite time and thereafter remains frozen at a limit whose Fourier energy is equally distributed among all nonzero real frequency classes. The counterexample holds on an open set of initial conditions and therefore occurs with positive probability under Gaussian initialization. An appendix prepared by GPT-5.6 Sol strengthens the counterexample by showing that the same failure can occur for every Clarke trajectory from an open set of initial conditions, under the convention $\\mathrm{ReLU}'(0)=0$, for smooth dead-zone approximations of ReLU, and for fixed-step full-batch gradient descent. Thus, single-frequency alignment is not a general consequence of training a single neuron on modular addition.",
+      "published": "2026-08-05T04:56:53Z",
+      "authors": [
+        "Gautam Neelakantan Memana"
+      ],
+      "url": "https://arxiv.org/abs/2608.04451v2",
+      "rule_score": 3.0,
+      "model_prob": 0.48854034719576833,
+      "final_score": 0.6201539987949185,
+      "matched": [
+        " to"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2604.05659v1",
+      "title": "Stable maps, multiplicities, and compactified Jacobians",
+      "abstract": "Let $C$ be a complex projective integral curve with planar singularities. In this note, we study numerical relations among its versal deformation space, moduli space of stable maps, and compactified Jacobian. In particular, we correct a statement by Fantechi--Göttsche--van Straten on the multiplicity of the $δ$-constant stratum of the versal deformation space at $[C]$. We also give a necessary and sufficient condition for the original claim to hold.",
+      "published": "2026-04-07T09:58:53Z",
+      "authors": [
+        "Yifan Zhao"
+      ],
+      "url": "https://arxiv.org/abs/2604.05659v1",
+      "rule_score": 4.0,
+      "model_prob": 0.4363141714104921,
+      "final_score": 0.6141073340374481,
+      "matched": [
+        "(?:s|ing|ed)? (?:an?|the)? ?(?:error|mistake|gap|proof|result|theorem|claim|statement)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2603.07713v2",
+      "title": "Shadow chains and Conley chains for continuous-time semiflows",
+      "abstract": "In a recent series of articles we introduced the concept of \"stream of a semiflow. A stream is a closed and transitive binary relation which extends the relation \"being on the orbit of\" and allows to encode the qualitative behavior of a semiflow into a direct graph. The most important stream of a semiflow is its chain stream, based on Charles Conley's chains. In those previous works we omitted several details and proofs on continuous-time semiflows. In the present work we complement those articles as follows: (i) we provide a full proof of the closedness and transitivity of the chain stream for continuous-time semiflows; (ii) we introduce the concept of ``shadow chain'' for a continuous-time semiflow, based on the Anosov-Sinai-Bowen idea of pseudo-orbit. Shadow chains have the advantage that fit naturally with semiflows arising from differential equations. Our main result is that, although the shadow chain stream and the Conley chain stream are in general distinct as binary relations, they yield the same chain-recurrent set, the same nodes, and the same chain graph whenever the semiflow has strong compact dynamics. While doing this, we also introduce an equivalent definition of recurrent point of a stream in terms of forward-orbit equivalence, which simplifies several arguments below, and we strengthen the definition of s-uniform continuity of a semiflow, fixing a gap in the proof of some important results when the space is not locally compact. This is a radical revision of the first version posted to the arXiv.",
+      "published": "2026-03-08T16:32:07Z",
+      "authors": [
+        "Roberto De Leo",
+        "James A. Yorke"
+      ],
+      "url": "https://arxiv.org/abs/2603.07713v2",
+      "rule_score": 3.0,
+      "model_prob": 0.4505603810318689,
+      "final_score": 0.5973660190965788,
+      "matched": [
+        "(?:an?|the) (?:error|mistake|gap|flaw) in the (?:proof|statement|argument|paper)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2104.10626v1",
+      "title": "Optimal ergodic harvesting under ambiguity",
+      "abstract": "We consider an ergodic harvesting problem with model ambiguity that arises from biology. To account for the ambiguity, the problem is constructed as a stochastic game with two players: the decision-maker (DM) chooses the `best' harvesting policy and an adverse player chooses the `worst' probability measure. The main result is establishing an optimal strategy (also referred to as a control) of the DM and showing that it is a threshold policy. The optimal threshold and the optimal payoff are obtained by solving a free-boundary problem emerging from the Hamilton--Jacobi--Bellman (HJB) equation. As part of the proof, we fix a gap that appeared in the HJB analysis of [Alvarez and Hening, {\\em Stochastic Process. Appl.}, 2019], a paper that analyzed the risk-neutral version of the ergodic harvesting problem. Finally, we study the dependence of the optimal threshold and the optimal payoff on the ambiguity parameter and show that if the ambiguity goes to 0, the problem converges, to the risk-neutral problem.",
+      "published": "2021-04-21T16:37:47Z",
+      "authors": [
+        "Asaf Cohen",
+        "Alexandru Hening",
+        "Chuhao Sun"
+      ],
+      "url": "https://arxiv.org/abs/2104.10626v1",
+      "rule_score": 4.0,
+      "model_prob": 0.39629614246845235,
+      "final_score": 0.5900965166722243,
+      "matched": [
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.04659v1",
+      "title": "Subdivided expanders and counterexamples to the Tree Product Conjecture",
+      "abstract": "Distel, Gollin, Harvey, Hendrey, Hickingbotham, Mohar and Wood (2023) conjectured that graphs of degree-$d$ polynomial growth can be embedded into the strong product of $d$ trees, each with linear growth, and a constant-size complete graph. Very recently, the case $d = 4$ of the conjecture was disproved by Illingworth, Norin and Steiner (2026). In this paper, we provide counterexamples to the conjecture for every integer $d \\geq 2$, thus leaving $d=1$ as the only open case. Our counterexamples are appropriately subdivided cubic expanders. Our main contribution is to construct, for every real number $d>1$, subdivisions of cubic expanders with degree-$d$ polynomial growth and whose balanced separators have size $Ω(n^{1-1/d}\\log n)$, where $n$ denotes the number of vertices.",
+      "published": "2026-08-05T10:14:20Z",
+      "authors": [
+        "Andrea Munaro"
+      ],
+      "url": "https://arxiv.org/abs/2608.04659v1",
+      "rule_score": 0.0,
+      "model_prob": 0.6467368163453386,
+      "final_score": 0.5880420898072032,
+      "matched": [],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2606.15907v1",
+      "title": "Rigidity and flexibility of discrete conjugate nets with flexible $3 \\times 3$-subnets",
+      "abstract": "Discrete conjugate nets (also known as quad-surfaces) are polyhedral surfaces made of quadrilaterals connected in the combinatorics of the square grid. A generic discrete conjugate net is rigid. The present article contains counterexamples to an erroneous statement that a non-degenerate discrete conjugate net with flexible $3 \\times 3$-subnets is flexible and proves a corrected version of it under stronger non-degeneracy assumptions.",
+      "published": "2026-06-14T16:36:22Z",
+      "authors": [
+        "Ivan Izmestiev",
+        "Georg Nawratil",
+        "Sobhan Samareh Rad",
+        "Kiumars Sharifmoghaddam"
+      ],
+      "url": "https://arxiv.org/abs/2606.15907v1",
+      "rule_score": 3.0,
+      "model_prob": 0.4246152804259877,
+      "final_score": 0.5817989587330501,
+      "matched": [
+        "(?:a|the) corrected version of"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2604.22720v1",
+      "title": "Approximation algorithms and ratios for multiple domination in graphs",
+      "abstract": "We analyse approximation algorithms (greedy heuristics) for the classical domination number and two multiple domination numbers in simple graphs. First, we present a short self-contained proof of the known result that the minimum domination problem in any graph $G$ with maximum degree $Δ$ can be solved within the approximation ratio of ${\\ln(Δ+1)+1}$. The proof is based on an analysis of a simple greedy heuristic. Then, by analysing more advanced greedy heuristic techniques and using ideas from our self-contained proof for the classical domination number, we fix a gap in the existing proof of a similar result for the $k$-tuple domination number. That is, we prove that the minimum $k$-tuple domination problem indeed can be approximated within the ratio of $\\ln(Δ+1)+1$. The proof of this result is self-contained, direct, and much shorter than the existing proof, which contains the gap. Finally, we show that the known approximation ratio of $\\ln(2Δ)+1$ for the minimum $k$-domination problem can be improved to a better ratio.",
+      "published": "2026-04-24T17:09:10Z",
+      "authors": [
+        "Lukas Dijkstra",
+        "Vadim Zverovich",
+        "Andrei Gagarin"
+      ],
+      "url": "https://arxiv.org/abs/2604.22720v1",
+      "rule_score": 4.0,
+      "model_prob": 0.3763219072340313,
+      "final_score": 0.5781119755315717,
+      "matched": [
+        " (?:fix|repair|rectify|correct|amend|close) (?:a|the|this|that)? ?(?:gap|mistake|error|proof|lemma|claim)"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.06446v1",
+      "title": "Connected Counterexamples for Target Ramsey Numbers",
+      "abstract": "Chartrand and Zhang asked whether there exists a graph $G$ without isolated vertices whose target Ramsey number satisfies $\\mathrm{TR}(G) > \\mathrm{R}(G)$. We answer the question affirmatively, even under strong structural restrictions. If $Γ_t = P_t \\square P_t$ is the square $t \\times t$ grid, then the elementary counting bound of Chartrand and Zhang gives $\\mathrm{TR}(Γ_t) \\geq 2t(t-1)+1$, whereas a theorem of Mota, Sarkozy, Schacht and Taraz gives $\\mathrm{R}(Γ_t) = (3/2 + o(1))t^2$. Consequently, $\\mathrm{TR}(Γ_t) > \\mathrm{R}(Γ_t)$ for all sufficiently large $t$, so there are infinitely many connected, planar, bipartite counterexamples of maximum degree four. Higher-dimensional grids show that the ratio $\\mathrm{TR}(G)/\\mathrm{R}(G)$ is unbounded on connected bipartite graphs, while each fixed-dimensional witnessing family has bounded maximum degree. We also record an independent construction of disconnected counterexamples from the theorem of Burr, Erdos and Spencer on Ramsey numbers of multiple copies: if a fixed graph $H$ satisfies $e(H) > 2v(H) - α(H)$, then $\\mathrm{TR}(qH) > \\mathrm{R}(qH)$ for every sufficiently large $q$.",
+      "published": "2026-08-06T15:10:13Z",
+      "authors": [
+        "Guillaume Lecomte"
+      ],
+      "url": "https://arxiv.org/abs/2608.06446v1",
+      "rule_score": 0.0,
+      "model_prob": 0.6234475671281705,
+      "final_score": 0.5740685402769024,
+      "matched": [],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2506.01526v1",
+      "title": "Trigonal Canonically Fibered Surfaces",
+      "abstract": "We fix some gaps of a proof of Xiao's conjecture on canonically fibered surfaces of relative genus 5 by the second author. Our argument simplifies the original proof and gives a much better bound on the geometric genus of the surface. Also we apply the same argument to canonically fibered surfaces of relative genus 3 and 4 to obtain some Noether-type inequalities for these surfaces.",
+      "published": "2025-06-02T10:39:46Z",
+      "authors": [
+        "Houari Benammar Ammar",
+        "Xi Chen",
+        "Nathan Grieve"
+      ],
+      "url": "https://arxiv.org/abs/2506.01526v1",
+      "rule_score": 0.0,
+      "model_prob": 0.6215781209978406,
+      "final_score": 0.5729468725987044,
+      "matched": [],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2606.29231v1",
+      "title": "On questions of Pogorelov and Toponogov",
+      "abstract": "We give explicit counterexamples to two questions. One is asked by Pogorelov and the other is by Toponogov. These questions concern the existence of closed asymptotic curves in a saddle surface, namely a complete immersed regular surface in $\\mathbb{R}^3$ with nonpositive Gaussian/sectional curvature, and its geometric consequences under some topological conditions. We also modify the statements and prove a corrected version. In the appendix we include an example clarifying a conjecture of Milnor.",
+      "published": "2026-06-28T06:39:02Z",
+      "authors": [
+        "Lei Ni",
+        "Wei Zhang",
+        "Yijian Zhang"
+      ],
+      "url": "https://arxiv.org/abs/2606.29231v1",
+      "rule_score": 0.0,
+      "model_prob": 0.6097168126257644,
+      "final_score": 0.5658300875754586,
+      "matched": [],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.03126v1",
+      "title": "A note on relativistic kinetic Schauder estimates",
+      "abstract": "In this note, motivated by \\cite{DW26}, we construct counterexamples to momentum-only Schauder estimates for linear kinetic equations with relativistic transport. The construction exploits a structural compatibility between the nonlinear momentum-to-velocity map and a single fixed pair of smooth diffusion and drift coefficients: after conjugation, the diffusion becomes the Laplacian and all induced first-order terms cancel. Thus the obstruction is realized for one fixed operator, uniformly elliptic on every bounded momentum set, rather than through a frequency-dependent family of coefficients. We further show that the failure persists with zero external forcing by constructing uniformly positive stationary solutions for which the hidden spatial oscillation is encoded in a bounded zeroth-order coefficient whose momentum Hölder seminorm tends to zero. Consequently, the full Lorentzian Hölder control used in \\cite{HSTT} cannot in general be replaced by momentum-only Hölder control.",
+      "published": "2026-08-04T04:53:54Z",
+      "authors": [
+        "Weinan Wang"
+      ],
+      "url": "https://arxiv.org/abs/2608.03126v1",
+      "rule_score": 1.0,
+      "model_prob": 0.5170702878918598,
+      "final_score": 0.5592259052158577,
+      "matched": [
+        " on"
+      ],
+      "negative_matched": 0
+    },
+    {
+      "arxiv_id": "2608.02909v1",
+      "title": "When Predictions Become Regressors: A Split-Sample Correction for Biases in Downstream Inference",
+      "abstract": "Prediction-based methods, including Large Language Models (LLMs) and other machine learning techniques, are often used to construct measures of political phenomena that are difficult to quantify directly, such as policy positions in manifestos or emotions expressed on social media. In many applications, these prediction-generated measures are used as explanatory variables in regression models, even though they are measured with error. This leads to biased estimates. In this paper, we propose a simple solution to these biases: instrumental variables constructed from multiple measures created on independent splits of the original data. This approach is theoretically valid, easy to implement, and does not require new data. Through simulations, we show that this approach recovers estimates close to the true values, even in relatively small samples, while the standard approach can produce substantial bias in practice. We illustrate the method by revisiting two applications: whether gendered speech affects legislative outcomes in the German Parliament, and whether political risk influences poverty alleviation programs in China.",
+      "published": "2026-08-03T21:49:13Z",
+      "authors": [
+        "Nathan Canen",
+        "Ted Enamorado"
+      ],
+      "url": "https://arxiv.org/abs/2608.02909v1",
+      "rule_score": 3.0,
+      "model_prob": 0.37514713479506007,
+      "final_score": 0.5521180713544935,
+      "matched": [
+        "(?:correction|corrigendum|erratum) (?:to|of|for)"
+      ],
+      "negative_matched": 1
+    }
+  ]
+}
