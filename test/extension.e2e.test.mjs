@@ -59,6 +59,9 @@ test(
       const { chromium } = playwright;
       const context = await chromium.launchPersistentContext(profileDirectory, {
         headless: true,
+        // channel "chromium" uses the full browser (new headless), which is
+        // required for MV3 extensions; the default headless shell drops them.
+        channel: "chromium",
         args: [
           `--disable-extensions-except=${extensionDirectory}`,
           `--load-extension=${extensionDirectory}`,
@@ -87,10 +90,19 @@ test(
         await popup.waitForSelector("#apply:not([disabled])", { timeout: 10_000 });
         assert.equal(await popup.locator("#patches input:enabled").count(), 3);
         await popup.click("#apply");
-        await popup.waitForTimeout(500);
-        await pdfPage.waitForTimeout(1000);
-        const patchedPage = context.pages().find((page) => page.url().startsWith("blob:")) ??
-          context.pages().find((page) => page.url().endsWith("/viewer.html"));
+        // The popup closes itself after applying; wait on Node's side instead.
+        await new Promise((resolve) => setTimeout(resolve, 500));
+        // Applying the patch navigates the PDF tab to a blob URL, which closes
+        // the original page object; poll for the patched viewer instead of
+        // touching pdfPage.
+        let patchedPage = null;
+        for (let attempt = 0; attempt < 20 && patchedPage === null; attempt++) {
+          patchedPage = context.pages().find((page) => page.url().startsWith("blob:")) ??
+            context.pages().find((page) => page.url().endsWith("/viewer.html"));
+          if (patchedPage === null) {
+            await new Promise((resolve) => setTimeout(resolve, 250));
+          }
+        }
         assert.ok(patchedPage, "the extension did not open a patched viewer");
         if (patchedPage.url().endsWith("/viewer.html")) {
           await patchedPage.waitForFunction(

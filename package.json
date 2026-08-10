@@ -8,5 +8,8 @@
   "scripts": {
     "test": "node --test test/*.mjs",
     "generate-manifest": "node tools/generate-patches-manifest.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.0"
   }
 }

@@ -7,3 +7,6 @@ __pycache__/
 masterdir/
 .work/
 *.pdf
+
+# Node
+node_modules/
