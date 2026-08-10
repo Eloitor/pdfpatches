@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2602.13228",
+  "title": "Corrections to: \"The Willmore flow of Hopf-tori in the 3-sphere\"",
+  "url": "https://arxiv.org/abs/2602.13228",
+  "corrective": true,
+  "claim_quote": "p. 1, Abstract: \"This erratum addresses a logical mistake in the author’s article [Jakob, R. The Willmore flow of Hopf-tori in the 3-sphere. Journal of Evolution Equations 23, No. 72 (2023)] which resulted in two wrong assertions in parts (II) and (III) of Theorem 1 in the author’s cited paper and in an inaccuracy in the formulation of the second part of Proposition 6 in that paper.\" p. 1: \"However, the claimed threshold 8π²√2 has turned out to be too large and has to be decreased exactly to the number 4π².\" p. 2: \"Thirdly, in the second part of Proposition 6 of [6] one has to replace the interval (2π, 8π√2] by the disjoint union of intervals (2π, 4π) ∪ (4π, 8π√2]\"; the note also states that the three mistakes were caused by one logical mistake and supplies revised theorems and a counterexample.",
+  "corrected_paper": "The Willmore flow of Hopf-tori in the 3-sphere",
+  "repo_match": {
+    "matched": false,
+    "document": "",
+    "how": "cap",
+    "confidence": "alta"
+  },
+  "patchable": "no",
+  "rationale": "correcció significativa / fora d'abast de patches (producte): cal canviar els enunciats II/III del Theorem 1, la definició de simple parametrization, els llindars d'energia i la Proposition 6, i el candidat afegeix teoremes revisats i un contraexemple; no és una correcció petita. El paper de Jakob no és cap document del repo.",
+  "suggested_patch_text": ""
+}

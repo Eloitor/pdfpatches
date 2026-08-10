@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2209.05950",
+  "title": "Corrigendum to: Zero divisor graph of a lattice with respect to an ideal",
+  "url": "https://arxiv.org/abs/2209.05950",
+  "corrective": true,
+  "claim_quote": "p. 1, Abstract: \"In this paper, we point out several errors in [M.Afkhami, K.Khashyarmanesh and K.Nafar, Zero divisor graph of a lattice with respect to an ideal, Beitr Algebra Geom 56 (2015), 217-225.].\" \"In the previous article, Afkhami claimed that the intersection of all prime ideals belonging to an ideal I of a distributive lattice L equals to I. In this corrigendum, a counterexample for this sentence is constructed.\" p. 2: \"In fact case (4) is impossible to happen. In this corrigendum theorem 3.4 is presented with a reformed proof.\" p. 3, §2: \"Afkhami mistakenly define that a prime ideal P of L is called a prime ideal belonging to an ideal I if I ⊆P. In fact, a prime ideal P of L is called a prime ideal belonging to an ideal I if P ⊆I.\" \"the previous proposition is not true\" (Proposition 2.1 of the corrected paper).",
+  "corrected_paper": "Zero divisor graph of a lattice with respect to an ideal",
+  "repo_match": {
+    "matched": false,
+    "document": "",
+    "how": "cap",
+    "confidence": "alta"
+  },
+  "patchable": "no",
+  "rationale": "correcció significativa / fora d'abast de patches (producte): el corrigendum dona un contraexemple que refuta una proposició, corregeix la definició de ideals primers, reforma la prova del Theorem 3.4 i corregeix altres proves/resultats; no és una errada localitzada apta per a un patch petit. El paper d'Afkhami, Khashyarmanesh i Nafar no és cap dels documents del repo.",
+  "suggested_patch_text": ""
+}

@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2606.03996",
+  "title": "Corrigendum to Ramification of multiple eigenvalues for the Dirichlet-Laplacian in perforated domains published in Journal of Functional Analysis 283 (2022) 109718",
+  "url": "https://arxiv.org/abs/2606.03996",
+  "corrective": true,
+  "claim_quote": "p. 1, Abstract: \"We fix the proof of [2, Theorem 1.17] which does not in general gives the correct coefficients in the asymptotic behavior of eigenvalues for the Dirichlet Laplacian when a small hole is removed from the domain.\" p. 2, §1: \"In [2, Section 4] we attempted to prove the theorem by an iterative procedure ... However, this method is incorrect since the key estimate on page 38 ... does not hold in general.\" \"Our analysis shows that the coefficients in the asymptotic expansion provided by [2, Theorem 1.17] (corresponding to the {ν̂j} in Theorem 1) are in general wrong, and gives the correct coefficients.\" p. 15, §5.2: \"We conclude by observing that the previous analysis shows Theorem 1.8 in [3] to be false in general.\"",
+  "corrected_paper": "Ramification of multiple eigenvalues for the Dirichlet-Laplacian in perforated domains",
+  "repo_match": {
+    "matched": false,
+    "document": "",
+    "how": "cap",
+    "confidence": "alta"
+  },
+  "patchable": "no",
+  "rationale": "correcció significativa / fora d'abast de patches (producte): el candidat reemplaça la prova de Theorem 1.17 amb una reducció finito-dimensional, corregeix els coeficients asimptòtics i mostra també conseqüències per a Theorem 1.8 d'un altre article; és contingut matemàtic nou i estructural, no un patch local. El paper d'Abatangelo, Léna i Musolino no coincideix amb cap document del repo.",
+  "suggested_patch_text": ""
+}

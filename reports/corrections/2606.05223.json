@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2606.05223",
+  "title": "Corrigendum to \"Isomorphism classes of Drinfeld modules over finite fields\"",
+  "url": "https://arxiv.org/abs/2606.05223",
+  "corrective": true,
+  "claim_quote": "p. 1, opening paragraph: \"In this note we provide corrections to [KKP24, Theorem 5.4]. The main theorems of [KKP24] –Theorem A and B in the introduction– are valid as stated; in the proof of Theorem B the argument needs to be modified by replacing the erroneous Theorem 5.4 by the theorem of this note.\" p. 1: \"Part (1) of [KKP24, Theorem 5.4] claims the existence of an action (given by the map I ↦ I ∗ ϕ) of the monoid of fractional ideals of E up to linear equivalence, on the set of isomorphism classes of Drinfeld modules in the isogeny class of ϕ whose endomorphism ring is the order of an E-ideal. This is false\"; the note replaces it with a bijection. p. 1: \"Part (3) of [KKP24, Theorem 5.4] moreover claims that when E is Gorenstein, the association I ↦ I ∗ϕ is transitive on the set of all Drinfeld modules whose endomorphism ring is the order of an E-ideal. This is false\".",
+  "corrected_paper": "Isomorphism classes of Drinfeld modules over finite fields",
+  "repo_match": {
+    "matched": false,
+    "document": "",
+    "how": "cap",
+    "confidence": "alta"
+  },
+  "patchable": "no",
+  "rationale": "correcció significativa / fora d'abast de patches (producte): el candidat declara falses les parts (1) i (3) del Theorem 5.4, substitueix el teorema per un resultat de bijecció i requereix una prova nova; no és un canvi textual petit. El paper corregit (Karemaker–Katen–Papikian, [KKP24]) no coincideix per títol, autor o URL amb cap document del repo.",
+  "suggested_patch_text": ""
+}

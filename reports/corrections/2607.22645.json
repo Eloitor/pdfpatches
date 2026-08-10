@@ -1,0 +1,17 @@
+{
+  "arxiv_id": "2607.22645",
+  "title": "Corrigendum to \"Nonsymplectic automorphisms of prime order on O’Grady’s sixfolds\"",
+  "url": "https://arxiv.org/abs/2607.22645",
+  "corrective": true,
+  "claim_quote": "p. 1, Abstract: \"In this short note we correct the lattice theoretic classification in [3] of the first named author, including some missing cases and explaining how to recover them.\" p. 2, §2: \"We give a complete list of corrections for [3, Tables 1, 2, 3, 4, & 5].\" \"In what follows, we describe the missing and erroneous cases in loc. cit., and we give corrected versions of [3, Tables 1, 2, 3, 4 & 5].\" The numbered corrections on pp. 2–3 include missing lattice cases, duplicate entries, and an erroneous entry with no primitive extension.",
+  "corrected_paper": "Nonsymplectic automorphisms of prime order on O’Grady’s sixfolds",
+  "repo_match": {
+    "matched": false,
+    "document": "",
+    "how": "cap",
+    "confidence": "alta"
+  },
+  "patchable": "no",
+  "rationale": "correcció significativa / fora d'abast de patches (producte): la correcció refà la classificació lattice-theoretic, afegeix casos absents, elimina duplicats, corregeix una entrada i reprodueix cinc taules completes; és una revisió substancial, no un canvi textual petit. El paper de Grossi citat com [3] no coincideix amb Darmon, Greenberg o Zhang al repo.",
+  "suggested_patch_text": ""
+}
