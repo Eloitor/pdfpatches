@@ -14,7 +14,7 @@ check_utils() {
     return 0
 }
 
-readonly REQ_UTILS="curl sha256sum mutool patch pdftocairo"
+readonly REQ_UTILS="curl sha256sum mutool python3 pdftocairo"
 check_utils
 
 if [ "$2" ]; then
@@ -34,6 +34,7 @@ if [ "$1" = "fetch" ]; then
 fi
 . ../common/do_clean
 . ../common/do_patch
+. ../common/do_visual_diff || exit $?
 . ../common/do_optimize
 
 # Move final PDF to destination directory

@@ -1,6 +1,10 @@
+import sys
+
 import pikepdf
 
-pdf = pikepdf.open('cleaned.pdf')
+input_path = sys.argv[1] if len(sys.argv) > 1 else "cleaned.pdf"
+output_path = sys.argv[2] if len(sys.argv) > 2 else "test.pdf"
+pdf = pikepdf.open(input_path)
 
 obj = pdf.objects[225]
 assert obj.objgen == (236, 0)
@@ -18,4 +22,4 @@ new_content_stream = pikepdf.unparse_content_stream(commands)
 obj.Contents = pdf.make_stream(new_content_stream)
 pdf.objects[255] = obj
 
-pdf.save("test.pdf")
+pdf.save(output_path)

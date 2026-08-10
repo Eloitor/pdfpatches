@@ -1,0 +1,42 @@
+# Run the visual-diff verifier from masterdir/.
+# Source this file after do_patch; it deliberately returns the verifier's
+# status so pdfm can stop on an out-of-box difference.
+
+if [ -z "${TARGET_DOC:-}" ]; then
+    echo "TARGET_DOC is not set; cannot run visual diff" 1>&2
+    return 1
+fi
+
+if [ -n "${PDFPATCHES_PYTHON:-}" ]; then
+    visual_python="${PDFPATCHES_PYTHON}"
+elif [ -x ../.venv/bin/python ]; then
+    visual_python="../.venv/bin/python"
+else
+    visual_python="$(command -v python3 2>/dev/null || true)"
+    if [ -z "${visual_python}" ]; then
+        echo "python3 is missing in your system, can't run visual diff!" 1>&2
+        return 1
+    fi
+fi
+
+if ! "${visual_python}" -c '
+import numpy
+import PIL
+import pikepdf
+try:
+    import pymupdf
+except ImportError:
+    import fitz
+' >/dev/null 2>&1; then
+    echo "visual-diff dependencies are missing (numpy, pillow, pikepdf, pymupdf)" 1>&2
+    return 1
+fi
+
+case "${TARGET_DOC}" in
+    /*) visual_doc="${TARGET_DOC}" ;;
+    *) visual_doc="../${TARGET_DOC}" ;;
+esac
+
+"${visual_python}" ../common/visual_diff.py \
+    "${visual_doc}" builddir/cleaned.pdf builddir/visualdiff
+return $?

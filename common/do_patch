@@ -1,8 +1,54 @@
+# Apply every textual and pikepdf patch in one lexical order.
+# This file is sourced by pdfm while the current directory is masterdir/.
+
+doc_dir="../${TARGET_DOC}"
+patch_dir="${doc_dir}/patches"
+
 cp builddir/cleaned.pdf builddir/patched.pdf
 
-for patch_file in ../"${TARGET_DOC}"/patches/*.patch; do
-    patch -u builddir/patched.pdf "$patch_file"
-done
+patch_files=$(
+    {
+        if [ -d "${patch_dir}" ]; then
+            find "${patch_dir}" -maxdepth 1 -type f \( -name '*.patch' -o -name 'patch.py' \) -print
+        fi
+        if [ -f "${doc_dir}/patch.py" ]; then
+            printf '%s\n' "${doc_dir}/patch.py"
+        fi
+    } | LC_ALL=C sort
+)
+
+if [ -n "${patch_files}" ]; then
+    if [ -n "${PDFPATCHES_PYTHON:-}" ]; then
+        patch_python="${PDFPATCHES_PYTHON}"
+    elif [ -x ../.venv/bin/python ]; then
+        patch_python="../.venv/bin/python"
+    else
+        patch_python="python3"
+    fi
+
+    # A here-document avoids word-splitting document paths such as
+    # "Greenberg - Heegner points ...".
+    while IFS= read -r patch_file; do
+        [ -n "${patch_file}" ] || continue
+        case "${patch_file}" in
+            *.patch)
+                python3 ../common/apply_patch.py "${patch_file}" builddir/patched.pdf || exit 1
+                ;;
+            *.py)
+                rm -f builddir/patched-next.pdf
+                "${patch_python}" "${patch_file}" \
+                    "$(pwd)/builddir/patched.pdf" \
+                    "$(pwd)/builddir/patched-next.pdf" || exit 1
+                if [ ! -f builddir/patched-next.pdf ]; then
+                    echo "${patch_file} did not produce patched-next.pdf" 1>&2
+                    exit 1
+                fi
+                mv builddir/patched-next.pdf builddir/patched.pdf
+                ;;
+        esac
+    done <<EOF
+${patch_files}
+EOF
+fi
 
 pdftocairo -pdf builddir/patched.pdf builddir/final.pdf
-

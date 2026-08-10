@@ -1,0 +1,5 @@
+numpy
+pillow
+pikepdf
+pymupdf
+scikit-learn
