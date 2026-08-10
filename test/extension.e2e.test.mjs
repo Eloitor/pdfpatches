@@ -89,7 +89,16 @@ test(
         await popup.click("#apply");
         await popup.waitForTimeout(500);
         await pdfPage.waitForTimeout(1000);
-        assert.match(pdfPage.url(), /^(blob:|chrome-extension:)/);
+        const patchedPage = context.pages().find((page) => page.url().startsWith("blob:")) ??
+          context.pages().find((page) => page.url().endsWith("/viewer.html"));
+        assert.ok(patchedPage, "the extension did not open a patched viewer");
+        if (patchedPage.url().endsWith("/viewer.html")) {
+          await patchedPage.waitForFunction(
+            () => document.querySelector("#pdf")?.src.startsWith("blob:"),
+            null,
+            { timeout: 10_000 },
+          );
+        }
       } finally {
         await context.close();
       }
