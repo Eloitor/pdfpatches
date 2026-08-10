@@ -1,0 +1,12 @@
+{
+  "name": "pdfpatches",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.mjs",
+    "generate-manifest": "node tools/generate-patches-manifest.mjs"
+  }
+}

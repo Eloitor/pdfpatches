@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PDF Patches</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main>
+      <h1>PDF Patches</h1>
+      <p id="document" class="muted">Checking the current tab…</p>
+      <ul id="patches" aria-label="Available patches"></ul>
+      <p id="message" role="status" class="message"></p>
+      <button id="apply" type="button" disabled>Aplica</button>
+      <p class="privacy">The PDF is fetched and patched in memory on this device. It is not stored.</p>
+    </main>
+    <script type="module" src="popup.js"></script>
+  </body>
+</html>

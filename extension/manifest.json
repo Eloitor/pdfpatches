@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Patches",
+  "description": "Applies repository patches to the PDF currently viewed, entirely in the browser.",
+  "version": "0.1.0",
+  "permissions": ["activeTab", "tabs"],
+  "host_permissions": [
+    "https://www.math.mcgill.ca/*",
+    "https://web.math.princeton.edu/*",
+    "https://raw.githubusercontent.com/Eloitor/pdfpatches/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "action": {
+    "default_title": "PDF Patches",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "pdf-patches@eloitor.github.io",
+      "strict_min_version": "109.0"
+    }
+  }
+}

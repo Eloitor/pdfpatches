@@ -43,3 +43,21 @@ bottom left.  A patch may have several boxes and may affect several pages.
 Missing boxes produce a warning and do not fail the normal check; use
 `--strict` to make missing configuration an error.  `--suggest` prints
 bounding boxes in this same coordinate convention.
+
+## Browser extension
+
+`extension/` contains a minimal MV3 extension for Chromium and Firefox.  It
+matches the URLs in `extension/patches.json`, fetches the currently viewed PDF,
+and applies unified patches entirely in memory.  The generated manifest is
+refreshed with:
+
+```sh
+node tools/generate-patches-manifest.mjs
+```
+
+Load `extension/` as an unpacked extension.  The Python `patch.py` entries are
+shown in the popup but are deliberately marked as pipeline-only; the browser
+path executes only unified patches.  No patched PDF is written to storage or
+the repository.  Run the Node tests (the real-PDF visual checks use `.work/`
+fixtures when present) with `npm test`; the optional Playwright E2E is skipped
+unless Playwright and Chromium are installed.
