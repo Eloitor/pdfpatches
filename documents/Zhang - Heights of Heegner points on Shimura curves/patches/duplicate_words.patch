@@ -1,0 +1,20 @@
+diff --git a/cleaned.pdf b/cleaned.pdf
+index 845669d..dcc917a 100644
+--- a/cleaned.pdf
++++ b/cleaned.pdf
+@@ -25962,7 +25962,6 @@ q 8.33333 0 0 8.33333 0 0 cm BT
+ 9.00724 0 Td
+ (and)Tj
+ 21.0949 0 Td
+-(and)Tj
+ 21.0939 0 Td
+ (that)Tj
+ /R275 9.96264 Tf
+@@ -106432,7 +106431,6 @@ q 8.33333 0 0 8.33333 0 0 cm BT
+ 11.5278 0 Td
+ (the)Tj
+ 19.3454 0 Td
+-(the)Tj
+ 19.3455 0 Td
+ (c)Tj
+ 4.54497 0 Td

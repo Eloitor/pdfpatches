@@ -60,7 +60,14 @@
       "revision": 1,
       "url": "https://web.math.princeton.edu/~shouwu/publications/Heegner01.pdf",
       "urlPattern": "https://web.math.princeton.edu/~shouwu/publications/Heegner01.pdf",
-      "patches": []
+      "patches": [
+        {
+          "name": "duplicate_words.patch",
+          "type": "unified",
+          "supportedClientSide": true,
+          "content": "diff --git a/cleaned.pdf b/cleaned.pdf\nindex 845669d..dcc917a 100644\n--- a/cleaned.pdf\n+++ b/cleaned.pdf\n@@ -25962,7 +25962,6 @@ q 8.33333 0 0 8.33333 0 0 cm BT\n 9.00724 0 Td\n (and)Tj\n 21.0949 0 Td\n-(and)Tj\n 21.0939 0 Td\n (that)Tj\n /R275 9.96264 Tf\n@@ -106432,7 +106431,6 @@ q 8.33333 0 0 8.33333 0 0 cm BT\n 11.5278 0 Td\n (the)Tj\n 19.3454 0 Td\n-(the)Tj\n 19.3455 0 Td\n (c)Tj\n 4.54497 0 Td\n"
+        }
+      ]
     }
   ]
 }

@@ -29,7 +29,8 @@ test("patch manifest generator includes templates and patch contents", async () 
     assert.ok(darmon.patches.some((patch) => patch.type === "python-script"));
     assert.equal(greenberg.patches.filter((patch) => patch.type === "unified").length, 3);
     assert.match(greenberg.patches[0].content, /eigensymbolsymbol/);
-    assert.equal(zhang.patches.length, 0);
+    assert.equal(zhang.patches.length, 1);
+    assert.ok(zhang.patches.some((patch) => patch.name === "duplicate_words.patch" && patch.supportedClientSide));
     assert.equal(existsSync("extension/patches.json"), true);
   } finally {
     await rm(directory, { recursive: true, force: true });

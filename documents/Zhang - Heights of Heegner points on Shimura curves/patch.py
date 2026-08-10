@@ -22,4 +22,8 @@ new_content_stream = pikepdf.unparse_content_stream(commands)
 obj.Contents = pdf.make_stream(new_content_stream)
 pdf.objects[255] = obj
 
-pdf.save(output_path)
+pdf.save(
+    output_path,
+    compress_streams=False,
+    object_stream_mode=pikepdf.ObjectStreamMode.disable,
+)
